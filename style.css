@@ -1,0 +1,219 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {text-decoration: none}
+* {box-sizing:border-box;}
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<STYLE CSS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+body {padding:2% 0 0 0}
+header {
+	display:flex;
+}
+header img {
+	width:120px;
+	margin-left:30px
+}  	
+.ulli{
+	display:flex;
+	margin-left:210%;
+}
+.ulli li {
+    justify-content:center;
+	font-size:20px;
+	color:#3D58A6; 
+    margin:10px 0 0 17px;
+}
+
+
+.conteiner {
+	position:relative;
+	height:358px;
+	margin-top:20px;
+	background-color:#D1D3DB;
+}
+.conteiner img {
+	width:100%;
+}
+.whitelogo {
+	width:30px;
+	height:25px;	
+	position:absolute;
+	top:85%;
+    right:38%;
+}
+.conteiner p {
+	position:absolute;
+	top:7%;
+    left:8%;
+    font-size:22px;
+    color:#fff;
+    width:100px;
+}
+.secconteiner{
+	margin-top: 130px;
+	position:relative;
+	padding-top:2%;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	height:390px;
+	background-color:#363E97;
+}
+.whitebox {
+	padding-top:100px;
+    width:480px;
+	height:273px;
+	background-color:#fff;
+	margin-right:30px;
+  
+}
+.whitebox2 {
+	padding-top:100px;
+	width:480px;
+	height:273px;
+	background-color:#fff;
+
+}
+.secconteiner h1 {
+	position:absolute;
+	top:6%;
+	left:9%;
+	font-size:22px;
+	color:#fff;
+}
+.whiteboxp {
+	color:black;
+	text-align:center;
+}
+.grey {
+	position:relative;
+	padding-top:55px;
+	background-color:#BDCCD4; 
+    display:flex;
+    justify-content:space-around;
+    align-items:stretch;
+    height:390px;
+}
+.son{
+	background-color:#E6E6E6;
+	height: 250px;
+    width: 270px;
+    text-align:center;
+}
+.grey p {
+	position:absolute;
+	top:4%;
+	left:2%;
+
+}
+.last {
+	position:relative;
+	display:flex;
+    height:450px;
+    justify-content:center;
+    align-items:center;
+    background-color:#E6E6E6;
+}
+.last p {
+	position:absolute;
+	top:8%;
+	left:11%;
+	font-size:20px;
+ }
+ .lastfirst{
+ 	position:relative;
+ 	padding:1%;
+ 	display:flex;
+ 	width:500px;
+ 	height:250px;
+ 	background-color:#fff;
+ 	
+ }
+ .lastsecond {
+ 	position:relative;
+ 	padding:1%;
+ 	margin-left:20px;
+ 	display:flex;
+ 	width:500px;
+ 	height:250px;
+ 	background-color:#fff;
+ 
+ }
+ .lastfirst img {
+ 	position:absolute;
+ 	top:19%;
+ 	left:3%;
+    height:160px;
+
+
+ }
+ .lastsecond img {
+ 	position:absolute;
+ 	top:19%;
+ 	left:3%;
+ 	width:100px
+ }
+.lastfirst p {
+	position:absolute;
+	top: 26%;
+    left: 33%;
+}
+.lastsecond p {
+    position:absolute;
+	top: 26%;
+    left: 30%;
+}
+
+.lastfirst h5 {
+	position:absolute;
+	bottom:4%;
+	right:3%;
+	color:#3D58A6;
+}
+.lastsecond h5 {
+	position:absolute;
+	bottom:4%;
+	right:3%;
+	color:#3D58A6;
+}
