@@ -41,7 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-a {text-decoration: none}
+a {text-decoration:none}
 * {box-sizing:border-box;}
 
 
@@ -53,6 +53,9 @@ header {
 header img {
 	width:120px;
 	margin-left:30px
+}
+.navactive{
+	color:red;
 }  	
 .ulli{
 	display:flex;
@@ -334,3 +337,64 @@ header img {
 	height:300px
 }
 
+.newdiv{
+	display: flex;
+	width:100%;
+	height:70px;
+	background-color:#9cb6f0;
+}
+
+
+.newdiv span {
+	margin-top:23px;
+	text-align:center;
+	display:flex;
+	margin-right:25px;
+	color:;
+}
+.spanclass {
+    color:#fff;
+	margin-left:950px;    
+}
+.spanclass2 {
+	margin-left:25px;
+	color:#fff;
+}
+.lastsec{
+	padding:0 50px 0 50px
+}
+.block {
+	padding-top:2px;
+	padding-left:6px;
+	margin-top:30px;
+	color:blue;
+	font-size:30px;
+	width:50px;
+	height:50px;
+	border:solid thin #9cb6f0 ;
+}
+.block p {
+	font-size:9px;
+}
+.lastdiv h1 {
+     font-size:18px;
+     color:#356a9c;
+     margin-top:15px;
+}
+.lastdiv img {
+	padding:20px;
+	margin-top:16px;
+	float: left;
+}
+.skysec {
+	margin:40px 0 0 0;
+	color:white;
+}
+.newdiv p {
+	margin:25px 0 0 30px
+
+}
+
+.lasfirst span {
+	color:#356a9c;
+}
